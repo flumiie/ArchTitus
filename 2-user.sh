@@ -25,13 +25,14 @@ ln -s "$HOME/zsh/.zshrc" $HOME/.zshrc
 PKGS=(
 'autojump'
 'awesome-terminal-fonts'
-'brave-bin' # Brave Browser
+'code'
+'discord'
 'dxvk-bin' # DXVK DirectX to Vulcan
-'github-desktop-bin' # Github Desktop sync
 'lightly-git'
 'lightlyshaders-git'
 'mangohud' # Gaming FPS Counter
 'mangohud-common'
+'microsoft-edge-beta-bin' # Ms Edge Beta Browser
 'nerd-fonts-fira-code'
 'nordic-darker-standard-buttons-theme'
 'nordic-darker-theme'
@@ -47,8 +48,9 @@ PKGS=(
 'ttf-hack'
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
-'zoom' # video conferences
 'snap-pac'
+'spotify'
+'visual-studio-code-bin'
 )
 
 for PKG in "${PKGS[@]}"; do
